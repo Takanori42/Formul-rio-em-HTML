@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulário de Cadastro</title>
+    <link rel="icon" type="image/x-icon" href="C:/Users/gabriela.deoliveira/Downloads/letra-f.png">
+    <p><h2 style="text-align: center;">Formulário de Cadastro</h2></p>
+
+</head>
+<body>
+    <!--<div style="text-align:center">-->
+
+    <form action="/action_page.php" autocomplete="on">
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+
+        <label for="nome"><strong>Nome:</strong></label><br>
+        <input type="text" id = "nome" name="nome"><br>
+
+        <label for="nome"><strong>Sobrenome:</strong></label><br>
+        <input type="text" id = "snome" name="snome"><br>
+
+        <label for="email"><strong>E-mail:</strong></label><br>
+        <input type="email" id = "email" name="email"
+        placeholder="teste@gmail.com"><br></h4>
+     
+        <label for="idade"><strong>Idade:</strong></label><br>
+        <input type="number" id = "idade" name="idade"><br>
+
+        <label for="telefone"><strong>Telefone:</strong></label><br>
+        <input type="tel" id = "telefone" name="telefone"
+        placeholder="99 99123-4567"><br></h4>
+
+        <label for="aniv"><strong>Aniversário:</strong></label><br>
+        <input type="date" id = "aniv" name="aniv"><br>
+
+        <!--Ocupação-->
+        <p><strong>Ocupação:</strong></p>
+        <select id="ocupacao" name="ocupacao">
+            <option value="estudante">Estudante</option>
+            <option value="servidor">Servidor</option>
+            <option value="autonomo">Autônomo</option>
+            <option value="dolar">Do lar</option>
+            <option value="pensionista">Pensionista</option>
+            <option value="aposentado">Aposentado</option>
+            <option value="empresario">Empresário</option>
+            <option value="militar">Militar</option>
+            <option value="funcionarioP">Funcionário Privado</option>
+            <option value="estudante">Estudante</option>
+        </select><br>
+        
+        <label for="anexo" name="anexo"><strong>Selecione um anexo:</strong></label><br>
+        <input type="file" id="anexo" name="anexo"><br>
+        
+        </fieldset>
+       
+       <!-- login e senha -->
+       <fieldset>
+           <legend><strong>Dados de Login</strong></legend>
+           
+           <label for="login"><strong>Login:</strong></label><br>
+           <input type="text" id="login" name="login"><br>
+           <label for="senha"><strong>Senha:</strong></label><br>
+           <input type="password" id="senha" name="senha"><br>
+           
+           <!-- teste de cor -->
+           
+           <label for="cor">Escolha uma cor:</label><br>
+           <input type="color" id="cor" name="cor"><br>
+           
+           
+            <input type="submit" value="Enviar"><br>
+            
+        </fieldset>
+       
+    
+ <!--</div>-->
+    </body>
+</form>
+</html>
